@@ -1,0 +1,6 @@
+Not1=float(input("ingrese nota 1))
+Not2=float(input("ingrese nota 2))
+Not3=float(input("ingrese nota 3))
+Not4=float(input("ingrese nota 4))
+final=(not1*0.25)+(not2*0.25)+(not3*0.25)+(not4*0.25)
+print=( promedio final es:/n",final)

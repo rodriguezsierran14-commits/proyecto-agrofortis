@@ -1,0 +1,12 @@
+temperatura = float(input("Ingrese la temperatura de la máquina: "))
+motor = input("¿El motor está encendido? (si/no): ").lower()
+
+if temperatura > 80:
+    motor = "no"
+    print("La temperatura supera los 80 grados.")
+    print("El motor se apagó automáticamente.")
+else:
+    print("La temperatura es segura.")
+    print("El motor permanece:", motor)
+
+print("Estado final del motor:", motor)
